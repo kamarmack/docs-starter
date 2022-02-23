@@ -9,7 +9,7 @@ Docs Starter is a base project for static markdown documentation forked from [th
 After [installing hugo](https://gohugo.io/getting-started/), simply run the following command from the project root to view your Docs Starter app
 
 ```console
-$ hugo server --minify --theme hugo-book
+hugo server --minify --theme hugo-book
 ```
 
 ## Making changes
