@@ -4,6 +4,8 @@
 
 Docs Starter is a base project for static markdown documentation forked from [themes/hugo-book](https://themes.gohugo.io/themes/hugo-book/)
 
+![Screenshot of Docs Starter](/readme-screenshot-docs-starter-home.jpg)
+
 ## Running the app
 
 After [installing hugo](https://gohugo.io/getting-started/), simply run the following command from the project root to view your Docs Starter app
