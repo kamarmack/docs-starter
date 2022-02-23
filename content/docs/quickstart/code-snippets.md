@@ -39,14 +39,14 @@ $ whoami
 <button onclick="copyToClipboard('excode_console_user_check')">Copy</button>
 <p id="copied_alert_excode_console_user_check" style="display: none; color: green">Copied!</p>
 
-JSON example <button onclick="copyToClipboard('excode_json_username_pass')">Copy</button>
-
+JSON example
 ```json
 {
   "pass": "kinda-complicated-but-nice-when-it-works",
   "username": "hugo"
 }
 ```
+<button onclick="copyToClipboard('excode_json_username_pass')">Copy</button>
 <p id="copied_alert_excode_json_username_pass" style="display: none; color: green">Copied!</p>
 
 <script>

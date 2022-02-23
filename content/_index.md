@@ -1,6 +1,5 @@
 ---
 title: "Welcome"
-weight: 1
 ---
 # Welcome
 
@@ -10,11 +9,13 @@ Welcome to **Docs Starter**. I'm a nice base project for markdown documentation 
 
 Refer to [Quickstart Installation](/docs/quickstart/installation) to create documentation for your software.
 
-## `Welcome.md` File
+## `content/_index.md` File
 
-This example file has some introductory markdown content. Use it to write a *overview* about your software. Then provide details and implementation steps in your subsequent files.
+This example file serves as your documentation home page. Use it to write an *overview* about your software.
 
-Notice the weight in the Hugo "front" section of this file is `1`, so it appears at the top of the table of contents, even though alphabetically it should be near the bottom.
+> Note: This contents of this home page file do not appear in search.
+
+Use your subsequent files to provide the details and implementation steps for your software.
 
 ## Use Cases
 
@@ -25,7 +26,7 @@ Docs Starter is excellent for software that changes infrequently such as a narro
 
 ## Limitations
 
-Docs Starter is **not** optimized to be programmatically generated and updated alongside your changes to an underlying code base / repo. Therefore, it is **not** suitable for software that changes frequently or customer-facing products.
+Docs Starter is **not** optimized to be programmatically generated and updated alongside your changes to some underlying code base / repo. Therefore, it is **not** suitable for software that changes frequently or customer-facing products.
 
 Secondly, the copy-paste functionality for code snippets is currently implemented by writing a `copyToClipboard` function in each file that contains code. This obviously does not scale.
 

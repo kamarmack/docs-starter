@@ -6,7 +6,7 @@ weight: 2
 
 Providing markdown content in this file is optional. If excluded, clicking the "Quickstart" option in the table of contents simply collapses and expands the section.
 
-## `Quickstart/_index.md` File
+## `content/**/_index.md` File
 
 Use this file to write an *overview* about this section when needed. Then provide details and implementation steps in the section's files.
 
