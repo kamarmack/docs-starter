@@ -1,0 +1,26 @@
+baseURL: https://foo.bar/
+title: Docs Starter
+theme: hugo-book
+
+disablePathToLower: true
+enableGitInfo: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+languages:
+  en:
+    languageName: English
+    contentDir: content
+    weight: 1
+
+params:
+  BookTheme: light
+  BookSection: docs
+  BookDateFormat: "February 23, 2022"
+  BookSearch: true
+  BookComments: false
