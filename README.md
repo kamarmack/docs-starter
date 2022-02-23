@@ -11,8 +11,6 @@ After [installing hugo](https://gohugo.io/getting-started/), simply run the foll
 ```console
 $ hugo server --minify --theme hugo-book
 ```
-<button onclick="copyToClipboard('excode_run_hugo_server')">Copy</button>
-<p id="copied_alert_excode_run_hugo_server" style="display: none; color: green">Copied!</p>
 
 ## Making changes
 
