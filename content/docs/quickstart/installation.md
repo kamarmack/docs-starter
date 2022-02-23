@@ -62,6 +62,14 @@ $ hugo new docs/welcome.md
 <button onclick="copyToClipboard('excode_create_hugo_book_page')">Copy</button>
 <p id="copied_alert_excode_create_hugo_book_page" style="display: none; color: green">Copied!</p>
 
+## Step 6: Run hugo development server
+
+```console
+$ hugo server --disableFastRender --theme hugo-book
+```
+<button onclick="copyToClipboard('excode_run_hugo_server')">Copy</button>
+<p id="copied_alert_excode_run_hugo_server" style="display: none; color: green">Copied!</p>
+
 ## Troubleshooting
 
 #### Error with brew
@@ -86,6 +94,7 @@ function copyToClipboard(id) {
     excode_new_hugo_project: 'hugo new site my-hugo-site',
     excode_install_hugo_book_theme: 'git init && git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book',
     excode_create_hugo_book_page: 'hugo new docs/welcome.md',
+    excode_run_hugo_server: 'hugo server --disableFastRender --theme hugo-book',
   };
   const ids = Object.keys(code_snippets);
   navigator.clipboard.writeText(code_snippets[id]);
