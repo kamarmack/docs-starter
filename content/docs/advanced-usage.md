@@ -1,13 +1,13 @@
 ---
 bookToc: false
 title: "Advanced Usage"
-weight: 3
+weight: 4
 ---
 # Advanced Usage
 
 I'm an example piece of content about an advanced use case.
 
-Notice the weight in the Hugo "front" section of this file is `3`, so it appears at the bottom of the table of contents, even though alphabetically it should be near the top.
+Notice the weight in the Hugo "front" section of this file is `4`, so it appears at the bottom of the table of contents, even though alphabetically it should be near the top.
 
 ## \*Insert Complicated Edge Case\*
 
