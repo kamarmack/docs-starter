@@ -34,7 +34,7 @@ type Customer = User & {
 
 Bash command example
 ```console
-$ whoami
+whoami
 ```
 <button onclick="copyToClipboard('excode_console_user_check')">Copy</button>
 <p id="copied_alert_excode_console_user_check" style="display: none; color: green">Copied!</p>

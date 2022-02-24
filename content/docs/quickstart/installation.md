@@ -10,13 +10,13 @@ The following guide is for installing Hugo on macOS.
 ## Step 1: Update homebrew
 
 ```console
-$ git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow -v
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow -v
 ```
 <button onclick="copyToClipboard('excode_homebrew_update_core')">Copy</button>
 <p id="copied_alert_excode_homebrew_update_core" style="display: none; color: green">Copied!</p>
 
 ```console
-$ git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow -v
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow -v
 ```
 <button onclick="copyToClipboard('excode_homebrew_update_cask')">Copy</button>
 <p id="copied_alert_excode_homebrew_update_cask" style="display: none; color: green">Copied!</p>
@@ -24,7 +24,7 @@ $ git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshall
 ## Step 2: Install Hugo with brew
 
 ```console
-$ brew install hugo
+brew install hugo
 ```
 <button onclick="copyToClipboard('excode_install_hugo_global')">Copy</button>
 <p id="copied_alert_excode_install_hugo_global" style="display: none; color: green">Copied!</p>
@@ -32,7 +32,7 @@ $ brew install hugo
 ## Step 3: Create a base Hugo project
 
 ```console
-$ hugo new site my-hugo-site
+hugo new site my-hugo-site
 ```
 <button onclick="copyToClipboard('excode_new_hugo_project')">Copy</button>
 <p id="copied_alert_excode_new_hugo_project" style="display: none; color: green">Copied!</p>
@@ -43,13 +43,13 @@ $ hugo new site my-hugo-site
 First, navigate into your site directory.
 
 ```console
-$ cd my-hugo-site
+cd my-hugo-site
 ```
 
 Then, initialize a git repo and add the hugo-book theme.
 
 ```console
-$ git init && git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
+git init && git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 ```
 <button onclick="copyToClipboard('excode_install_hugo_book_theme')">Copy</button>
 <p id="copied_alert_excode_install_hugo_book_theme" style="display: none; color: green">Copied!</p>
@@ -57,7 +57,7 @@ $ git init && git submodule add https://github.com/alex-shpak/hugo-book themes/h
 ## Step 5: Create your pages
 
 ```console
-$ hugo new docs/welcome.md
+hugo new docs/welcome.md
 ```
 <button onclick="copyToClipboard('excode_create_hugo_book_page')">Copy</button>
 <p id="copied_alert_excode_create_hugo_book_page" style="display: none; color: green">Copied!</p>
@@ -65,7 +65,7 @@ $ hugo new docs/welcome.md
 ## Step 6: Run hugo development server
 
 ```console
-$ hugo server --disableFastRender --theme hugo-book
+hugo server --disableFastRender --theme hugo-book
 ```
 <button onclick="copyToClipboard('excode_run_hugo_server')">Copy</button>
 <p id="copied_alert_excode_run_hugo_server" style="display: none; color: green">Copied!</p>

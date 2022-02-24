@@ -32,7 +32,8 @@ These are the most important config options that control the page UI.
 
 | Property | Value | Default Value | Description |
 | ------ | ------ | ------ | ------ |
-| bookCollapseSection | `boolean` | `true` | Whether to collapse the section in the primary table of contents when this page is active. Applies only to section _index.md files and pages. |
+| bookCollapseSection | `boolean` | `false` | Whether the menu should collapse a section of pages. **Note**: If you set the `bookCollapseSection` property of a section's `_index.md` file to `true`, then you must manually set the `bookCollapseSection` property to `false` in each of the section's pages. Otherwise, the menu will collapse the section even after one of the pages is selected. |
+| bookSearchExclude | `boolean` | `false` | Whether to exclude the page from search. |
 | bookToc | `boolean` | `true` | Whether to show a secondary table of contents for this page's markdown sections on the right side of the page. |
 | title | `string` | NA | Title of the page. Used in the primary table of contents and the browser bar. |
 | weight | `number` | NA | Determines this page's order in the primary table of contents. Weight is scoped to a section. |
